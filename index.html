@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>時間割</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <table border="1">
+        <caption>
+            <input type="text" name="namae" size="10" id="nm">年
+            <input type="text" name="namae" size="10" id="nm">クォーター 時間割
+        </caption>
+        <thead>
+            <th></th>
+            <th>月</th>
+            <th>火</th>
+            <th>水</th>
+            <th>木</th>
+            <th>金</th>
+            <th>土</th>
+            <th>日</th>
+
+        </thead>
+        <tbody>
+            <th>I</th>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+        </tbody>
+        <tbody>
+            <th>II</th>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+        </tbody>
+        <tbody>
+            <th>III</th>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+        </tbody>
+        <tbody>
+            <th>IV</th>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+        </tbody>
+        <tbody>
+            <th>V</th>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+        </tbody>
+        <tbody>
+            <th>講義後</th>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+            <td>
+                <input type="text" name="namae" size="10" id="nm">
+            </td>
+
+        </tbody>
+
+
+    </table>
+
+    <p>時給
+        <input type="text" name="namae" size="4" id="nm">
+        円
+    </p>
+    <p>
+        <input type="text" name="namae" size="3" id="nm">
+        時間
+    </p>
+    <form action="/cgi-bin/snap.cgi" entrype="multipart/form-data" method="post">
+        <p>
+            時間割の画像<br>
+            <input type="file" name="imagefile" accept="image/jpeg,image/gif,image/png">
+        </p>
+    </form>
+
+
+</body>
+
+</html>
